@@ -1,0 +1,4 @@
+[manifest]
+path = bsim
+file = west.yml
+

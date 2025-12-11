@@ -1,0 +1,16 @@
+#!/bin/env bash
+set -ex
+pushd /workspace
+rm -rf bsim
+rm -rf .west
+rm -rf .venv
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip3 install west
+
+west init -m  https://github.com/BabbleSim/bsim_west.git
+pushd bsim
+west update
+
+make everything -j 8
