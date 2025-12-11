@@ -40,5 +40,6 @@ It allows for usage of PSA crypto secure api.
 
 
 # Recognition
-This was done as a part of my bachelor thesis under supervision
-of PhD Marek Bawiec from Wrocław University of Science and Technology.
+This was done as a part of my bachelor thesis under supervision of PhD Marek
+Bawiec and DSc, PhD, Eng, Maciej Nikodem from Wrocław University of Science and
+Technology.
